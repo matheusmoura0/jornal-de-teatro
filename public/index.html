@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#241923" />
+    <meta name="description" content="Jornal de Teatro — crítica, agenda e bastidores das artes cênicas do Rio." />
+    <title>Jornal de Teatro | O palco está aberto</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="masthead">
+        <div class="topline wrap"><span>Rio de Janeiro · artes cênicas</span><span id="edition-date">Edição digital</span></div>
+        <div class="brand-row wrap">
+          <button class="menu-button" type="button" aria-controls="main-nav" aria-expanded="false"><span></span><span></span><span></span><b>Menu</b></button>
+          <a class="wordmark" href="/" aria-label="Jornal de Teatro, início"><span>JORNAL DE</span><strong>Teatro</strong></a>
+          <div class="brand-note"><span class="live-dot"></span><span>O palco também é notícia</span></div>
+        </div>
+        <nav class="nav-row wrap" id="main-nav" aria-label="Navegação principal"><a class="active" href="#inicio">Início</a><a href="#cartaz">Em cartaz</a><a href="#critica">Crítica</a><a href="#bastidores">Bastidores</a><a href="#agenda">Agenda</a><a href="#sobre">Sobre</a></nav>
+      </header>
+
+      <main id="inicio">
+        <section class="intro wrap"><div><p class="kicker">A CENA EM MOVIMENTO</p><h1>O palco<br /><em>está aberto.</em></h1></div><p class="intro-copy">Um olhar sobre quem faz, quem assiste e tudo o que acontece entre o apagar das luzes e o último aplauso.</p></section>
+
+        <section class="stage-hero wrap" id="cartaz"><div class="stage-photo"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Theater_Show.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org" alt="Cortinas vermelhas abertas para um palco de teatro" /><span class="stage-tag">Luz de cena</span></div><div class="stage-copy"><p class="eyebrow">ABERTURA DE CORTINA</p><h2>O teatro começa antes da peça</h2><p>Notícias, crítica e serviço para acompanhar a criação cênica do Rio com curiosidade e atenção.</p><a class="text-link" href="#agenda">Ver o que está em cartaz <span aria-hidden="true">↗</span></a></div></section>
+
+        <section class="playbill wrap" id="critica"><div class="playbill-number">01</div><div><p class="eyebrow">NOTA DE PROGRAMA</p><h2>Uma cidade inteira<br /><em>em estado de ensaio.</em></h2></div><p>Das salas históricas aos espaços independentes, o Jornal de Teatro acompanha a cena sem perder o que acontece nos bastidores.</p></section>
+
+        <section class="latest wrap" id="bastidores"><div class="section-heading"><div><p class="kicker">LEITURAS ENTRE UM ATO E OUTRO</p><h2>Últimas do Palco</h2></div><div class="hub-status" data-hub-state><span class="status-dot"></span><span data-hub-label>Edição de estreia</span></div></div><div class="news-grid" id="news-grid"><article class="news-card featured-card"><p class="eyebrow">CRÍTICA</p><h3>Um novo jornal para olhar a cena de perto</h3><p>Este espaço recebe as próximas críticas, entrevistas e histórias da redação.</p><span class="card-meta">Em breve</span></article><article class="news-card"><p class="eyebrow">BASTIDORES</p><h3>Quem acende a luz depois do ensaio</h3><p>Profissionais e processos que fazem a peça chegar ao público.</p><span class="card-meta">Em breve</span></article><article class="news-card wine-card"><p class="eyebrow">AGENDA</p><h3>Uma semana para sair de casa</h3><p>Espetáculos, encontros e experiências para marcar na agenda.</p><span class="card-meta">Em breve</span></article></div></section>
+
+        <section class="backstage wrap" id="agenda"><div class="backstage-head"><p class="kicker">DIÁRIO DE BASTIDORES</p><h2>O que fica quando<br /><em>as cortinas fecham.</em></h2></div><div class="backstage-list"><div><span>01</span><p>Uma conversa com quem escreve a cena.</p></div><div><span>02</span><p>Um palco, muitas formas de existir.</p></div><div><span>03</span><p>O público como parte do espetáculo.</p></div></div></section>
+
+        <section class="closing wrap" id="sobre"><p class="kicker">ATÉ O PRÓXIMO ATO</p><h2>Todo espetáculo<br />deixa uma pergunta.</h2><a class="solid-button" href="mailto:redacao@jornaldeteatro.rio.br">Fale com a redação <span aria-hidden="true">↗</span></a></section>
+      </main>
+
+      <footer class="footer"><div class="wrap footer-top"><div><a class="wordmark footer-mark" href="/" aria-label="Jornal de Teatro, início"><span>JORNAL DE</span><strong>Teatro</strong></a><p>Crítica, agenda e bastidores das artes cênicas.</p></div><div class="footer-links"><a href="#cartaz">Em cartaz</a><a href="#critica">Crítica</a><a href="#agenda">Agenda</a><a href="mailto:redacao@jornaldeteatro.rio.br">Contato</a></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> Jornal de Teatro</span><span>Imagem: Kurt Kaiser / Wikimedia Commons · CC0</span></div></footer>
+    </div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
